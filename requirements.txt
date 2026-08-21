@@ -1,4 +1,7 @@
-pyspark
-pandas
-matplotlib
-pytest
+# Pin these to exact versions once the team's environment is settled.
+# Reproducibility is graded, and Spark 3.5 and 4.x are not fully interchangeable,
+# so agree on one line and record it in docs/reproduction_guide.md.
+pyspark>=3.5,<4.0
+pandas>=2.0
+matplotlib>=3.7
+pytest>=8.0
